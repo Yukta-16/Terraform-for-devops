@@ -48,7 +48,7 @@ Open VS Code → Extensions → Search & Install:
 
 ---
 
-# ☁️ 2️⃣ Cloud Accounts Setup
+# ☁️ Cloud Accounts Setup
 
 ---
 
