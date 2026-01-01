@@ -1,11 +1,9 @@
-# 🌩️ Terraform Practical
-
-
+# Terraform Practical
 #  Prerequisite Installations
 
 ---
 
-## 🛠️ Install Terraform
+## Install Terraform
 
 Download and install Terraform:
 👉 [https://developer.hashicorp.com/terraform/downloads](https://developer.hashicorp.com/terraform/downloads)
@@ -20,7 +18,7 @@ If you see a version → Terraform installed successfully 🎉
 
 ---
 
-## 🐧 Install Git
+##  Install Git
 
 Download Git:
 👉 [https://git-scm.com/downloads](https://git-scm.com/downloads)
@@ -33,7 +31,7 @@ git --version
 
 ---
 
-## 🖥️ Install VS Code
+##  Install VS Code
 
 👉 [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
@@ -48,11 +46,11 @@ Open VS Code → Extensions → Search & Install:
 
 ---
 
-# ☁️ Cloud Accounts Setup
+#  Cloud Accounts Setup
 
 ---
 
-## 🟡 AWS Setup
+## AWS Setup
 
 ### Install AWS CLI
 
@@ -83,7 +81,7 @@ Enter:
 
 ---
 
-## 🔵 Azure Setup
+## Azure Setup
 
 ### Install Azure CLI
 
@@ -106,7 +104,7 @@ A browser will open → Login → Done 🎉
 ---
 
 
-# 🧱  Run Terraform Project
+# Run Terraform Project
 
 Go inside project folder, for example:
 
@@ -160,7 +158,7 @@ terraform destroy
 
 
 
-# 🧠  Git & GitHub Workflow
+#  Git & GitHub Workflow
 
 Run inside project root:
 
@@ -194,6 +192,14 @@ git remote add origin <your-github-repo-link>
 git branch -M main
 git push -u origin main
 ```
+
+### Pull
+
+```bash
+git pull origin main --rebase
+git push origin main
+```
+
 # Add .gitignore
 
 Never push Terraform state to GitHub ❗
@@ -210,8 +216,3 @@ crash.log
 
 ---
 🎯 Code now on GitHub!
-
-
-
-
-Just tell me 😊
