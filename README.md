@@ -158,21 +158,7 @@ terraform destroy
 
 ---
 
-# 🛑 5️⃣ Very Important — .gitignore
 
-Never push Terraform state to GitHub ❗
-
-Create `.gitignore` in root folder:
-
-```
-.terraform/
-*.tfstate
-*.tfstate.backup
-.terraform.lock.hcl
-crash.log
-```
-
----
 
 # 🧠  Git & GitHub Workflow
 
@@ -208,7 +194,21 @@ git remote add origin <your-github-repo-link>
 git branch -M main
 git push -u origin main
 ```
+# Add .gitignore
 
+Never push Terraform state to GitHub ❗
+
+Create `.gitignore` in root folder:
+
+```
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+crash.log
+```
+
+---
 🎯 Code now on GitHub!
 
 
