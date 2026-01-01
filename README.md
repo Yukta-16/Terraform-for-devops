@@ -215,4 +215,4 @@ crash.log
 ```
 
 ---
-🎯 Code now on GitHub!
+Start learning Terraform!!
